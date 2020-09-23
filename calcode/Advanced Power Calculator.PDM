@@ -1,0 +1,136 @@
+[Root]
+Most Recent Package=APCalc Setup
+
+
+[Package|APCalc Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\macWebSite\MyProducts\Visual Basic\calcode\Package
+
+[Package|APCalc Setup|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|APCalc Setup|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|APCalc Setup|Files Found]
+
+[Package|APCalc Setup|Files Released]
+
+[Package|APCalc Setup|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\FM20.DLL=
+E:\macWebSite\MyProducts\Visual Basic\calcode\MINIApCalc.exe=
+
+[Package|APCalc Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+
+[Package|APCalc Setup|Files Added]
+e:\macwebsite\myproducts\visual basic\calcode\miniapcalc.exe=
+
+[Package|APCalc Setup|Files Removed]
+c:\windows\system\vbajet32.dll=
+c:\windows\system\vb5db.dll=
+c:\windows\system\msrdo20.dll=
+c:\windows\system\msrd2x35.dll=
+c:\windows\system\msjter35.dll=
+c:\windows\system\msjint35.dll=
+c:\windows\system\msjet35.dll=
+c:\windows\system\mscomctl.ocx=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\windows\system\fm20.dll=
+c:\windows\system\expsrv.dll=
+c:\program files\common files\microsoft shared\dao\dao350.dll=
+c:\program files\common files\microsoft shared\dao\dao2535.tlb=
+c:\windows\system\rdocurs.dll=
+
+[Package|APCalc Setup|Files In Project]
+E:\macWebSite\MyProducts\Visual Basic\calcode\Advanced Power Calculat...exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=No
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=No
+C:\WINDOWS\SYSTEM\MSJET35.DLL=No
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=No
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=No
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=No
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=No
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=No
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=No
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=No
+C:\WINDOWS\SYSTEM\FM20.DLL=No
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=No
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\macWebSite\MyProducts\Visual Basic\calcode\MINIApCalc.exe=Yes
+
+[Package|APCalc Setup|Configure Registry Files]
+Applicable=No
+
+[Package|APCalc Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|APCalc Setup|Install Locations]
+E:\macWebSite\MyProducts\Visual Basic\calcode\Advanced Power Calculat...exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\macWebSite\MyProducts\Visual Basic\calcode\MINIApCalc.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+
+[Package|APCalc Setup|Configure Shared Files]
+Applicable=Yes
+E:\macWebSite\MyProducts\Visual Basic\calcode\Advanced Power Calculat...exe=No
+E:\macWebSite\MyProducts\Visual Basic\calcode\MINIApCalc.exe=No
+
+[Package|APCalc Setup|Distribution]
+Type=single
+Size=
+Title=Advanced Power Calculator
+
+[Package|APCalc Setup|Package]
+PackageFolder=E:\macWebSite\MyProducts\Visual Basic\calcode\Package
+ProjectFolder=E:\macWebSite\MyProducts\Visual Basic\calcode
+ServerSideCab=
+File1=E:\macWebSite\MyProducts\Visual Basic\calcode\Package\setup.exe
+File2=E:\macWebSite\MyProducts\Visual Basic\calcode\Package\Setup.Lst
+File3=E:\macWebSite\MyProducts\Visual Basic\calcode\Package\Advanced Power Calculat...CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|APCalc Setup|IconGroups]
+Group0=Advanced Power Calculator
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|APCalc Setup|Advanced Power Calculator]
+Icon1="Advanced Power Calculat...exe"
+Title1=Advanced Power Calculator
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=MINIApCalc.exe
+Title2=MinCalc
+StartIn2=$(AppPath)
+Key2=Icon3
